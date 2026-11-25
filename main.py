@@ -99,3 +99,6 @@ FROM orders;
 """, conn)
 
 print(df_day_month_year)
+
+# Close database connection
+conn.close()
